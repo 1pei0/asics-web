@@ -77,8 +77,11 @@ html {
 .pic4{
     margin-right: 10px;
   }
-  .main{
-     background-image: url(./img/image\ 31.png);
+  .main{  
+    z-index: -1;
+    width:1280px;
+    height: 1653px;
+    margin:0 auto;
      background-repeat:no-repeat;
      width: 1460px;
       height: 1200px;
@@ -87,6 +90,10 @@ html {
       margin-top: 0 auto;
       position: absolute;
   }
+.main img{
+  min-height:100%;
+    width:100%;
+} 
 .box_s{
     margin-top: 173px;
     margin-left: 180px;
